@@ -11,6 +11,7 @@ let mynumber = parseInt(firstArg);
 if (isNaN(mynumber)) {
     console.log(1);
 }
-
+else {
 factorialResult = factorial(mynumber);
 console.log(factorialResult);
+}
